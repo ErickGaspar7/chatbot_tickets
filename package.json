@@ -1,14 +1,14 @@
 {
-  "name": "meu-bot-whatsapp",
+  "name": "whatsapp-bot",
   "version": "1.0.0",
-  "description": "Bot de WhatsApp usando whatsapp-web.js",
-  "main": "index.js",
+  "description": "Bot do WhatsApp",
+  "main": "chatbot.js",  // Se o nome do seu arquivo principal for bot.js
   "scripts": {
     "start": "node chatbot.js"
   },
   "dependencies": {
     "moment-timezone": "^0.5.45",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.19.4"
+    "whatsapp-web.js": "^1.0.0"
   }
 }
